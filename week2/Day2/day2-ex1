@@ -1,0 +1,62 @@
+#Exercise 1 : What are you learning ?
+def display_messsage():
+    """"Display a message about what you are learning. """
+    print("In this cpourse, I am learning how to write python.")
+
+display_messsage()
+
+#Exercise 2: What’s your favorite book ?
+def favorite_book(title):
+    """"Prints a message about the user's favorite book.
+
+    Args:
+    title(str):The title of the book."""
+
+    print(f"One of my favorite books is {title}.")
+
+favorite_book("Alice in Wonderland")
+
+
+#Exercise 3 : Some Geography
+def describe_city(city, country="Iceland"):
+    """Prints a sentence describing the location of the city."""
+    print(f"{city} is in {country}")
+
+describe_city("Reykjavik") 
+
+
+#Exercise 4 : Random
+def compare_random_number(user_number):
+    print("Please enter a number btween 1 and 100.")
+    return
+
+generated_number = import(random.int(1, 100))
+
+if user_number == generated_number:
+    print(f"Success! Both numbers are{user_number}.")
+else:
+    print(f"Fail! Your number: {user_number}, generated number: {generated_number}")
+
+user_input = int(input("enter a number between 1 and 100:"))
+
+compare_random_number(user_input)
+
+
+#Exercise 8 : Star Wars Quiz
+def main():
+    correct_answers = []
+    incorrect_answers = []
+
+    if len(incorrect_answers) >= 3:
+        print("you loose")
+
+def question_asker(question, answer):
+    user_answer = input(question):
+        
+    if answer.lower() == answer.lower():
+        return("correct," {question, user_answer})
+
+    else:
+        RETURN ("incorrect,)
+def score_keeper():
+
